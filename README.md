@@ -1,1 +1,1 @@
-# rsschool-cv
+https://KohnoA.github.io/rsschool-cv/cv
