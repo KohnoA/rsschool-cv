@@ -13,6 +13,7 @@
 
 ## About Me
 _Minsk, Belarus_
+
 I am 22 years old, I am a 3rd year university student majoring in political science and law. Half a year ago, I realized that in my country I could not get a job in such a specialty anywhere. I started to learn about programming and I was attracted to it. I took a fixed layout course at HTML Academy, after which I learned about Rolling Scopes School and realized that this is a great opportunity to get a lot of practice and become a front-end developer.
 
 ## Skills
