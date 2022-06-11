@@ -105,8 +105,7 @@ img {
     align-items: center;
 
     width: 100%;
-    padding: 40px 30px;
-    margin: 20px;
+    padding: 40px 0;
     margin-bottom: 20px;
     border-bottom: 10px solid gold;
 }
@@ -227,12 +226,12 @@ img {
 }
 
 .contacts-link {
-    color: darkorange;
+    color: #202026;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #202026;
+    color: darkorange;
 }
 
 .summary {
@@ -373,12 +372,12 @@ pre {
 }
 
 .courses-link {
-    color: darkorange;
+    color: #202026;
 }
 
 .courses-link:hover,
 .courses-link:focus {
-    color: #202026;
+    color: darkorange;
 }
 
 .projects {
@@ -432,12 +431,12 @@ pre {
 }
 
 .project-link {
-    color: darkorange;
+    color: #202026;
 }
 
 .project-link:hover,
 .project-link:focus {
-    color: #202026;
+    color: darkorange;
 }
 
 .education {
@@ -513,8 +512,64 @@ pre {
     fill: gold;
 }
 
-@media (max-width: 768px) {
-    main {
-        width: 100%;
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 20px;
+    }
+    *::before {
+        display: none;
+    }
+    .contacts {
+        padding-bottom: 60px;
+        border-bottom: 3px solid gold;
+    }
+    .summary {
+        padding-bottom: 60px;
+        border-bottom: 3px solid gold;
+    }
+    .skills {
+        padding-bottom: 60px;
+        border-bottom: 3px solid gold;
+    }
+    .code {
+        padding-bottom: 60px;
+        border-bottom: 3px solid gold;
+    }
+    .courses {
+        padding-bottom: 60px;
+        border-bottom: 3px solid gold;
+    }
+    .projects {
+        padding-bottom: 60px;
+        border-bottom: 3px solid gold;
+    }
+}
+
+@media (max-width: 860px) {
+    .section-wrapper section {
+        width: 100%
+    }
+    .profile {
+        flex-direction: column;
+        align-items: center;
+    }
+    .education {
+        padding-bottom: 60px;
+        border-bottom: 3px solid gold;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .profile-title {
+        font-size: 40px;
+        line-height: 1;
+        letter-spacing: 10px;
     }
 }
