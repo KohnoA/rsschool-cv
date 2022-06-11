@@ -29,9 +29,9 @@ body {
     padding: 0;
 
     font-family: "Montserrat", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 28px;
     color: black;
 
     background-color: white;
@@ -66,8 +66,8 @@ img {
 }
 
 .navigation {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .navigation-list {
@@ -107,6 +107,7 @@ img {
     width: 100%;
     padding: 40px 30px;
     margin: 20px;
+    margin-bottom: 20px;
     border-bottom: 10px solid gold;
 }
 
@@ -118,13 +119,13 @@ img {
 
 .profile-title {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
 }
 
 .profile-subtitle {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
 
 }
@@ -140,7 +141,7 @@ img {
 
 .contacts-list {
     padding: 0;
-    padding-left: 50px;
+    padding-left: 30px;
     margin: 0;
     list-style: none;
 }
@@ -234,9 +235,19 @@ img {
     color: #202026;
 }
 
+.summary {
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.summary-title {
+    margin-bottom: 40px;
+}
+
 .skills {
     position: relative;
-    padding: 0 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
 }
 
 .skills::before {
@@ -246,16 +257,260 @@ img {
     top: -10px;
     left: 20px;
 
-    width: 450px;
-    height: 5px;
+    width: 600px;
+    height: 3px;
 
     background-color: gold;
 }
 
+.skills-title {
+    margin-bottom: 40px;
+}
 
+.skills-list {
+    padding: 0;
+    padding-left: 30px;
+    margin: 0;
+    list-style: none;
+}
+
+.skills-item {
+    position: relative;
+    margin: 8px;
+}
+
+.skills-item::before {
+    content: "";
+
+    position: absolute;
+    top: 7px;
+    left: -30px;
+
+    width: 12px;
+    height: 12px;
+
+    background-color: #202026;
+
+    transform: rotate(45deg);
+}
+
+.code {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.code::before {
+    content: "";
+
+    position: absolute;
+    top: -10px;
+    left: 20px;
+
+    width: 600px;
+    height: 3px;
+
+    background-color: gold;
+}
+
+.code-title {
+    margin-bottom: 40px;
+}
+
+pre {
+    padding: 0;
+    margin: 0;
+}
+
+.courses {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.courses::before {
+    content: "";
+
+    position: absolute;
+    top: -10px;
+    left: 20px;
+
+    width: 600px;
+    height: 3px;
+
+    background-color: gold;
+}
+
+.courses-title {
+    margin-bottom: 40px;
+}
+
+.courses-list {
+    padding: 0;
+    padding-left: 30px;
+    margin: 0;
+    list-style: none;
+}
+
+.courses-item {
+    position: relative;
+    margin: 8px;
+}
+
+.courses-item::before {
+    content: "";
+
+    position: absolute;
+    top: 7px;
+    left: -30px;
+
+    width: 12px;
+    height: 12px;
+
+    background-color: #202026;
+
+    transform: rotate(45deg);
+}
+
+.courses-link {
+    color: darkorange;
+}
+
+.courses-link:hover,
+.courses-link:focus {
+    color: #202026;
+}
+
+.projects {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.projects::before {
+    content: "";
+
+    position: absolute;
+    top: -10px;
+    left: 20px;
+
+    width: 600px;
+    height: 3px;
+
+    background-color: gold;
+}
+
+.projects-title {
+    margin-bottom: 40px;
+}
+
+.projects-list {
+    padding: 0;
+    padding-left: 30px;
+    margin: 0;
+    list-style: none;
+}
+
+.projects-item {
+    position: relative;
+    margin: 8px;
+}
+
+.projects-item::before {
+    content: "";
+
+    position: absolute;
+    top: 7px;
+    left: -30px;
+
+    width: 12px;
+    height: 12px;
+
+    background-color: #202026;
+
+    transform: rotate(45deg);
+}
+
+.project-link {
+    color: darkorange;
+}
+
+.project-link:hover,
+.project-link:focus {
+    color: #202026;
+}
+
+.education {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 70px;
+}
+
+.education::before {
+    content: "";
+
+    position: absolute;
+    top: -10px;
+    left: 20px;
+
+    width: 600px;
+    height: 3px;
+
+    background-color: gold;
+}
+
+.education-title {
+    margin-bottom: 40px;
+}
+
+.english {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 70px;
+}
+
+.english::before {
+    content: "";
+
+    position: absolute;
+    top: -10px;
+    left: 20px;
+
+    width: 600px;
+    height: 3px;
+
+    background-color: gold;
+}
+
+.english-title {
+    margin-bottom: 40px;
+}
 
 .page-footer {
+    padding: 30px;
+    color: white;
     background-color: #202026;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-link {
+    margin-left: 30px;
+    color: white;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: gold;
+}
+
+.rss-link:hover path,
+.rss-link:focus path {
+    fill: gold;
 }
 
 @media (max-width: 768px) {
