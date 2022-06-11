@@ -516,7 +516,7 @@ pre {
     .container {
         padding: 0 20px;
     }
-    *::before {
+    section::before {
         display: none;
     }
     .contacts {
