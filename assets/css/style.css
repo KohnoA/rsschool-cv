@@ -54,6 +54,7 @@ img {
 .section-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .section-wrapper section {
@@ -126,6 +127,129 @@ img {
     font-size: 20px;
     text-align: center;
 
+}
+
+.contacts {
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-list {
+    padding: 0;
+    padding-left: 50px;
+    margin: 0;
+    list-style: none;
+}
+
+.contacts-list li {
+    position: relative;
+    margin: 8px;
+}
+
+.contacts-list .country::before {  
+    content: "";
+
+    position: absolute;
+    top: -2px;
+    left: -40px;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url("/rsschool-cv/assets/img/country.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.contacts-list .email::before {  
+    content: "";
+
+    position: absolute;
+    top: -2px;
+    left: -40px;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url("/rsschool-cv/assets/img/email.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.contacts-list .github::before {  
+    content: "";
+
+    position: absolute;
+    top: -2px;
+    left: -40px;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url("/rsschool-cv/assets/img/github.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.contacts-list .telegram::before {  
+    content: "";
+
+    position: absolute;
+    top: -2px;
+    left: -40px;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url("/rsschool-cv/assets/img/telegram.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.contacts-list .discord::before {  
+    content: "";
+
+    position: absolute;
+    top: -2px;
+    left: -40px;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url("/rsschool-cv/assets/img/discord.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.contacts-link {
+    color: darkorange;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #202026;
+}
+
+.skills {
+    position: relative;
+    padding: 0 20px;
+}
+
+.skills::before {
+    content: "";
+
+    position: absolute;
+    top: -10px;
+    left: 20px;
+
+    width: 450px;
+    height: 5px;
+
+    background-color: gold;
 }
 
 
