@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="icon" href="./assets/faviconCV.ico">
 </head>
 <body>
     <header class="page-header">
@@ -32,14 +32,22 @@
                         <a class="navigation-link" href="#education-anchor">Education</a>
                     </li>
                     <li class="navigation-item">
-                        <a class="navigation-link" href="#english-anchor">English</a>
+                        <a class="navigation-link" href="#english-anchor">Languages</a>
                     </li>
-                    
+                    <li class="close-menu">
+                        <button class="button-close" type="button"></button>
+                    </li>
                 </ul>
+                <div class="hamburger-wrapper">
+                    <div class="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
-
     <main class="main-index">
         <div class="container">
             <section class="profile">
@@ -60,72 +68,79 @@
                         <li class="discord">Discord: <a class="contacts-link" href="https://discord.gg/rtk8YBG2">Kohno_al#8522</a></li>
                     </ul>
                 </section>
-
                 <section class="summary" id="summary-anchor">
                     <h2 class="summary-title">Summary</h2>
-                    <p class="symmary-description">I am 22 years old, I am a 3rd year university student majoring in political 
-                        science and law. Half a year ago, I realized that in my country I could not get a job in such a specialty 
-                        anywhere. I started to learn about programming and I was attracted to it. I took a fixed layout course at 
-                        HTML Academy, after which I learned about Rolling Scopes School and realized that this is a great opportunity 
-                        to get a lot of practice and become a front-end developer.</p>
+                    <p class="symmary-description">I am 22 years old, I am a 3rd year university student majoring in political science and law. Half a year ago, I realized that in my country I could not get a job in such a specialty anywhere. I started to learn about programming and I was attracted to it. I took a fixed layout course at HTML Academy, after which I learned about Rolling Scopes School and realized that this is a great opportunity to get a lot of practice and become a front-end developer.</p>
                 </section>
-
                 <section class="skills" id="skills-anchor">
                     <h2 class="skills-title">Skills</h2>
                     <ul class="skills-list">
-                        <li class="skills-item">HTML5</li>
-                        <li class="skills-item">CCS3</li>
+                        <li class="skills-item">HTML</li>
+                        <li class="skills-item">CSS</li>
+                        <li class="skills-item">JavaScript</li>
                         <li class="skills-item">Figma, Photoshop</li>
                         <li class="skills-item">Git, GitHub</li>
                     </ul>
                 </section>
-
                 <section class="code" id="code-anchor">
                     <h2 class="code-title">Code</h2>
-                    <pre><code class="code-example">function multiply(a, b) {
-    return  a * b
+                    <pre><code class="code-example">function deepCount(a) {
+    let count = 0
+
+    for(let item of a) {
+        count++
+        if(Array.isArray(item)) {
+            count += deepCount(item)
+        }
+    }
+
+    return count
 }
 </code></pre>
                 </section>
-
                 <section class="courses" id="courses-anchor">
                     <h2 class="courses-title">Courses</h2>
                     <ul class="courses-list">
                         <li class="courses-item">
-                            HtmlAcademy - 
+                            <span>HtmlAcademy -</span>
                             <a class="courses-link" href="https://htmlacademy.ru/intensive/htmlcss">«HTML and CSS. Professional website layout»</a>
                         </li>
                         <li class="courses-item">
-                            RS Schools - 
-                            <a class="courses-link" href="https://rs.school/js-stage0/">«JavaScript/Front-end. Stage 0» (in the process)</a>
+                            <span>RS Schools -</span>
+                            <a class="courses-link" href="https://rs.school/js-stage0/">«JavaScript/Front-end. Stage 0»</a>
+                        </li>
+                        <li class="courses-item">
+                            <span>RS Schools -</span>
+                            <a class="courses-link" href="https://rs.school/js/">«JavaScript/Front-end. Stage 1» (in the process)</a>
                         </li>
                     </ul>
                 </section>
-
                 <section class="projects" id="projects-anchor">
                     <h2 class="projects-title">Projects</h2>
                     <ul class="projects-list">
-                        <li class="projects-item"><a class="project-link" href="https://KohnoA.github.io/rsschool-cv/cv">CV.md</a></li>
+                        <li class="projects-item"><a class="project-link" href="https://kohnoa.github.io/travel/">Travel</a></li>
+                        <li class="projects-item"><a class="project-link" href="https://kohnoa.github.io/momentum/">Momentum</a></li>
                     </ul>
                 </section>
-
                 <section class="education" id="education-anchor">
                     <h2 class="education-title">Education</h2>
                     <p class="education-text">BIP — University of Law and Social and Information Technologies</p>
                 </section>
-
                 <section class="english" id="english-anchor">
-                    <h2 class="english-title">English</h2>
-                    <p class="englisgh-text">A-1 (A2 in process...)</p>
+                    <h2 class="english-title">Languages</h2>
+                    <ul class ="skills-list">
+                        <li class="skills-item">English - A-1 (A2 in process...)</li>
+                        <li class="skills-item" title="Žyvie Bielaruś!">Belarusian - native language</li>
+                        <li class="skills-item">Russian - native language</li>
+                    </ul>
                 </section>
             </div>
         </div>
     </main>
-
     <footer class="page-footer">
         <div class="container footer-wrapper">
-            <div>
-                @ 2022
+            <div class="left-footer">
+                <span>@ 2022</span>
                 <a class="footer-link" href="https://github.com/KohnoA" title="GitHub">KohnoA</a>
             </div>
             <a class="rss-link" href="https://rs.school/js/">
@@ -136,5 +151,6 @@
             </a>
         </div>
     </footer>
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>
